@@ -85,6 +85,38 @@ body{
 
 .information .header2{
     color: black;
-    text-align: center;
     font-size: 36px;
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infobox{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.box{
+    border:2px solid blue;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+}
+
+.captionbox{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.caption{
+    border:2px hidden blue;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
 }
