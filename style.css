@@ -120,3 +120,26 @@ body{
     height: 150px;
     text-align: center;
 }
+
+.quotecontain{
+    background-color: #E5E7EB;
+}
+
+.container2 {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-family: "light italic";
+    font-size: 36px; 
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+
