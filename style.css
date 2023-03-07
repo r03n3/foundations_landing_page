@@ -1,18 +1,70 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-.upper {
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
     background-color: #1F2937;
+    
+}
+.upper {
+    flex: auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;    
+    gap: 120px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    display: flex;
 }
 
 .links{
     font-size: 18px;
     color: #E5E7EB;
+    gap: 20px;
+    display: flex;
+    padding: 5px;
+}
+
+.mainhead{
+    display: flex;
+    justify-content: center;
+}
+
+.headtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+    justify-content: center;
+}
+
+.signup{
+    height: 30px;
+    width: 100px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 12px;
+    
+}
+.right{
+    color: #F9FAF8;
+    display: flex;
+    flex:auto;
+    border: none;
 }
