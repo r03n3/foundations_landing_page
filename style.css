@@ -190,3 +190,9 @@ body{
     color: white;
     font-size: 24px;
 }
+
+.foot{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
