@@ -141,5 +141,52 @@ body{
     font-weight: 300;
 }
 
+.source{
+    text-align: right;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+}
 
+.actioncontain{
+    color:#E5E7EB;
+}
 
+.action{
+    background-color: #3882F6;
+    display: flex;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.action .signup{
+    color: white;
+    background-color: #3882F6;;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    align-self:center;
+}
+
+.sign{
+    color: white;
+}
+
+.call{
+    width: 66%;
+    color: white;
+    padding-left: 30px;
+}
+
+.signup{
+    width: 33%;
+    font-size: 16px;
+}
+
+.callto{
+    color: white;
+    font-size: 24px;
+}
