@@ -76,8 +76,15 @@ body{
     
     
 }
+
 .header2{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.information .header2{
+    color: black;
+    text-align: center;
+    font-size: 36px;
 }
